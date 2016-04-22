@@ -1,0 +1,6 @@
+#LittleSister Properties
+#Fri Apr 01 08:09:15 CEST 2016
+savePath=C\:\\Test
+testFilesPath=C\:\\Users\\Viktor\\Dropbox\\HTL\\Programmieren\\B�cher\\galileocomputing_oop.zip
+port=50555
+fileEndings=txt,java

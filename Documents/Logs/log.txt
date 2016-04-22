@@ -1,0 +1,32 @@
+Hallo Marc und Viktor,
+
+habe heute Freitag den Test abgehalten.
+
+Zusammenfassend kann ich sagen, dass es diesmal sehr unübersichtlich war.
+Als Lehrer ist man ziemlich orientierungslos.
+
+Der Start-Test-Button zeigt noch immer nicht an, ob der Test aktiviert ist.
+
+Die User werden als eingeloggt angezeigt, obwohl sie schon längst nicht eingeloggt sind. Bei den Usern wird angezeigt, dass Sie keine Verbindung haben, allerdings können sie sich nicht mehr am Server anmelden, da dieser ja glaubt, sie seine noch angemeldet. Man muss am Server jeden User anklicken und einen Screenshot anfordern, damit der User als nicht angemeldet angezeigt wird. Dann können sich die User wieder einloggen. Das war extrem mühsam
+
+Bei Hrn Gnadlinger wurde angezeigt, dass er angemeldet ist, allerdings werden keine Screenshots gesendet
+
+Manche Schüler wissen nicht was eine Matrikelnummer ist. Man sollte ein Beispiel hinzugeben
+
+Funktionale Anforderungen:
+- Es soll angezeigt werden in welches Verzeichnis gelogged wird
+- Das Log.txt File soll nicht pro Schüler angelegt werden sondern für den gesamten Test mit Spalten für Namen und Matrikelnummer (login)
+- Die Verzeichnisse mit den Screenshots sollen die Namen der Schüler enthalten
+- Es soll angezeigt werden, wann der letzte Screenshot archiviert wurde.
+- Ein Alarmierungssystem soll akkustisch eine Warnmeldung geben!
+- Der Port soll im Feld drin stehen. Dh ohne ihn neu eingeben zu müssen
+
+Folgende Massnahmen sind in Zukunft zu ergreifen:
+- Die Änderungen im Code sind nachvollziehbar zu gestalten (öfters committen mit entsprechendem Kommentar)
+- Tests müssen durchgeführt werden: entweder automatisiert oder manuell mittels Testprotokoll
+
+Falls der Directory Button mal in Betrieb geht:
+Beim Erstellen des Testes kann man kein Verzeichnis (Button mit 3 Punkten) auswählen.
+Das Feld für den Pfad ist so schmal, man kann kaum was sehen!!!!!!!!!!!!!!!!!!
+
+mfg

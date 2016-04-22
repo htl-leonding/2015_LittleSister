@@ -1,0 +1,86 @@
+@font-face {
+   font-family: 'FontAwesome';
+   src: url('/fa/fontawesome-webfont.ttf');
+}
+
+.grid-Pane-settings {
+    -fx-background-color:#FAFAFA;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: gray;
+    -fx-border-radius: 0;
+}
+
+.text-field-correct {
+    -fx-background-color: white;
+    -fx-border-color: green;
+    -fx-border-radius: 0;
+}
+
+.text-field-incorrect {
+    -fx-background-color: white;
+    -fx-border-color: red;
+    -fx-border-radius: 0;
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: gray;
+    -fx-border-radius: 0;
+}
+
+.combo-box-correct {
+    -fx-background-color: white;
+    -fx-border-color: green;
+    -fx-border-radius: 0;
+}
+
+.combo-box-incorrect {
+    -fx-background-color: white;
+    -fx-border-color: red;
+    -fx-border-radius: 0;
+}
+
+.button-directory-choose {
+    -fx-font-family: 'FontAwesome Regular';
+    -fx-background-color: #E8E8E8;
+    -fx-border-color: gray;
+    -fx-border-radius: 0;
+}
+
+.button-common {
+    -fx-background-color: #E8E8E8;
+    -fx-border-color: gray;
+    -fx-border-radius: 0;
+}
+
+.button-started {
+    -fx-effect: innershadow(three-pass-box, green, 0,21,21,10);
+    -fx-background-color: #E8E8E8;
+    -fx-border-color: gray;
+    -fx-border-radius: 0;
+}
+
+.button-stopped {
+    -fx-effect: innershadow( three-pass-box , red , 0, 100 , 21 , 10 );
+    -fx-border-color: gray;
+    -fx-border-radius: 0;
+}
+
+.online-label .glyph-icon {
+    -fx-fill: #45C801;
+}
+
+.offline-label .glyph-icon {
+    -fx-fill: #b31818;
+}
+
+.online-label .text {
+    -fx-fill: #45C801;
+}
+
+.offline-label .text {
+    -fx-fill: #b31818;
+}

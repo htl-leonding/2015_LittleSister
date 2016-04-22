@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="210" prefWidth="400" xmlns:fx="http://javafx.com/fxml" fx:controller="at.htl.controller.MainViewController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="141.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="484.0" minWidth="10.0" prefWidth="279.0" />
+    </columnConstraints>
+ 
+    <rowConstraints>
+        <RowConstraints maxHeight="40.0" minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="40.0" minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="40.0" minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+        <RowConstraints />
+    </rowConstraints>
+  
+    <children>
+        <Label text="MatrikelNr:" 
+               GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.halignment="LEFT" >
+            <GridPane.margin>
+                <Insets left="10.0" />
+            </GridPane.margin>
+        </Label>
+        <TextField fx:id="tfPupilMatrikelNr" promptText="(z.B.) in110084"  
+                   GridPane.rowIndex="0" GridPane.columnIndex="1">
+            <GridPane.margin>
+                <Insets left="20.0" right="10.0" />
+            </GridPane.margin>
+        </TextField>
+
+        <Label text="Server IP:" 
+               GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.halignment="LEFT">
+            <GridPane.margin>
+                <Insets left="10.0" />
+            </GridPane.margin>
+        </Label>
+        <TextField fx:id="tfServerIp" promptText="(z.B.) 192.168.12.17"  
+                   GridPane.rowIndex="1" GridPane.columnIndex="1">
+            <GridPane.margin>
+                <Insets left="20.0" right="10.0" />
+            </GridPane.margin>
+        </TextField>
+
+        <Label text="Server Port:" 
+               GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.halignment="LEFT" >
+            <GridPane.margin>
+                <Insets left="10.0" />
+            </GridPane.margin>
+        </Label>
+        <TextField fx:id="tfServerPort" text="50555" 
+                   GridPane.rowIndex="2" GridPane.columnIndex="1">
+            <GridPane.margin>
+                <Insets left="20.0" right="10.0" />
+            </GridPane.margin>
+        </TextField>
+
+        <Label text="Projektverzeichnis:"
+               GridPane.rowIndex="3" GridPane.columnIndex="0" GridPane.halignment="LEFT">
+            <GridPane.margin>
+                <Insets left="10.0" />
+            </GridPane.margin>
+        </Label>
+        <TextField fx:id="tfProjectDirectory" editable="false" 
+                   GridPane.rowIndex="3" GridPane.columnIndex="1">
+            <GridPane.margin>
+                <Insets left="20.0" right="30.0" />
+            </GridPane.margin>
+        </TextField>
+        
+        <Button text="%fa.folder"
+                GridPane.rowIndex="3" GridPane.columnIndex="1" GridPane.halignment="RIGHT" 
+                prefHeight="27.0" styleClass="button-directory-choose" 
+                onMouseClicked="#btnProjectDirectoryChooser_Clicked" mnemonicParsing="false">
+            <GridPane.margin>
+                <Insets right="10.0" />
+            </GridPane.margin>
+        </Button>      
+
+        <GridPane GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.columnSpan="2" >
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+
+            <rowConstraints>
+                <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+
+            <children>
+                <Button fx:id="btnConnect" mnemonicParsing="false" onMouseClicked="#btnConnectToServer_Clicked" prefHeight="45.0" prefWidth="200.0" styleClass="button-common" text="Verbinden" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                    <GridPane.margin>
+                        <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
+                    </GridPane.margin>
+                </Button>
+
+                <Button fx:id="btnGetTestfiles" mnemonicParsing="false" onMouseClicked="#btnGetTestfiles_Clicked"  prefHeight="45.0" prefWidth="200.0" styleClass="button-common" text="Testfiles anfordern" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                    <GridPane.margin>
+                        <Insets bottom="5.0" left="10.0" right="7.0" top="10.0" />
+                    </GridPane.margin>
+                </Button>
+            </children>
+            
+        </GridPane>
+    </children>
+</GridPane>

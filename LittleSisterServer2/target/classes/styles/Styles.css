@@ -1,0 +1,63 @@
+.button {
+    -fx-font-weight: bold;
+}
+
+.online-label .glyph-icon {
+    -fx-fill: #45C801;
+}
+
+.offline-label .glyph-icon {
+    -fx-fill: #b31818;
+}
+
+.online-label .text {
+    -fx-fill: #45C801;
+}
+
+.offline-label .text {
+    -fx-fill: #b31818;
+}
+
+.startButton
+{
+    -fx-background-color: #339900;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+    -fx-border-color: #45C801;
+    -fx-border-radius: 0;
+}
+.startButton:hover
+{
+    -fx-background-color: #45C801;
+    -fx-background-radius: 0;
+    -fx-text-fill: black;
+}
+
+.patrolButton
+{
+    -fx-background-radius: 0;
+    -fx-text-fill: black;
+    -fx-border-radius: 0;
+}
+
+.startTestButton
+{
+    -fx-background-color: #A901DB;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+    -fx-border-color: #D358F7;
+    -fx-border-radius: 0;
+}
+.startTestButton:hover
+{
+    -fx-background-color: #D358F7;
+    -fx-background-radius: 0;
+    -fx-text-fill: black;
+}
+
+.noborderrad
+{
+    -fx-background-radius: 0;
+    -fx-text-fill: black;
+    -fx-border-radius: 0;
+}

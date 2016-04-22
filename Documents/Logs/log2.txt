@@ -1,0 +1,20 @@
+Testlauf LittleSister (Version 1.0.0 vom 7.11. 2015) am 18.11.2015, 4CHIF + 4AHIF (6 Personen)
+
+Teilnehmer werden als nicht connected angezeigt, obwohl der Client sich neu und erfolgreich angemeldet hat
+Dafür werden nach Beenden des Tests noch viele Clients als abgemeldet angezeigt
+
+Wenn man die MAtrikelnummer mit falscher Groß-/Kleinschreibung eingibt, funktioniert das Anmelden nicht
+
+In der X-Achse der graf. Darstellung müssen die vollen Stunden angezeigt werden
+
+Wenn man auf einen Punkt der Linie klickt, soll der dazugehörige Screenshot angezeigt werden
+Die X-Achse soll der tatsächlichen Zeit entsprechen:
+	Die Anzahl der Zeilen sollen als Punkte dargestellt werden.
+	Jeder Screenshot soll ebenfalls als Punkt (in einer anderen Farbe) dargestellt werden
+
+Doppelklick auf den Namen in der linken Leiste, soll auch einen Screenshot anfordern (neben dem Button)
+Weil wenn man auf den Button Screenshot anfordern klickt, verliert der Teilnehmer in der Leiste den Fokus und auch die Markierung und man muss den Teilnehmer erneut auswählen
+
+Die Anforderungen der Logs von den einzelnen Testläufe sind in das Pflichtenheft einzuarbeiten!
+
+

@@ -1,0 +1,29 @@
+
+-mac adressen abprüfen
+-screenshots alle 1-2 Minuten vielleicht öfter´!!!!
+-Roboterframework (Zettel)
+-Plakat (Spezifikation, Grob-Feinentwurf, Zeit)
+-Konzept
+-Gui prototyp, Funktionalität, Pflichtenheft(um was geht es), Funktionale Anforderungen, GUI-Prototyp, was tut das ding
+Schüler meldet sich an, schreibt seinen Test
+Mengengerüst(Übertragung: wie lange, wie viel Speicher)
+PFLICHTENHEFT BIS 3.02.2015
+
+UnifiedMassAuditDevice
+
+
+executor service
+properties
+MVC? (Controller)
+bei anmeldung bekommt man die angabe in das entwicklungsverzeichnis
+
+
+
+
+02.10.2015
+
+-Systemarchitektur
+-Meilensteinliste (Was bis wann)
+-Automatisierte Tests (Chen + Plöderl)
+
+
